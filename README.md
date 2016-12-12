@@ -14,5 +14,5 @@ mvn install
 After that, simply generate using Maven interactive mode:
 
 ```bash
-mvn archetype:generate
+mvn archetype:generate -Dfilter=com.axonivy:jax-rs-basic
 ```
