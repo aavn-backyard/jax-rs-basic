@@ -8,6 +8,7 @@ If this archetype is not installed on your Maven repository, please check it out
 
 ```
 mvn install
+mvn archetype:crawl # force Maven to update local archetypeCatalog
 ```
 
 
